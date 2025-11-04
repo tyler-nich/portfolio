@@ -33,8 +33,10 @@ section {
   padding: 0 1rem;
 }
 
-.project-visual {
-    background-color: lightgrey;
+.project-visual,
+.project-desc {
+    display: flex;
+    flex: auto;
     width: 500px;
     height: 350px;
 }
